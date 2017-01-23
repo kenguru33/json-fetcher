@@ -1,5 +1,5 @@
 {
-  "name": "@banker/json-fetcher",
+  "name": "@kenguru33/json-fetcher",
   "version": "1.0.0",
   "description": "Json Fetcher with filter plugin",
   "main": "index.js",
@@ -20,5 +20,16 @@
   "devDependencies": {
     "mocha": "^3.2.0",
     "sinon": "^1.17.7"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenguru33/json-fetcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kenguru33/json-fetcher/issues"
+  },
+  "homepage": "https://github.com/kenguru33/json-fetcher#readme"
 }
