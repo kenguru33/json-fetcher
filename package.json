@@ -14,7 +14,6 @@
   "author": "Bernt Anker <bernt.anker@me.com> (http://bernt-anker.com)",
   "license": "MIT",
   "dependencies": {
-    "is-my-json-valid": "^2.15.0",
     "node-fetch": "^1.6.3"
   },
   "devDependencies": {
