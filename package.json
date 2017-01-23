@@ -1,0 +1,24 @@
+{
+  "name": "@banker/json-fetcher",
+  "version": "1.0.0",
+  "description": "Json Fetcher with filter plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "json",
+    "fetch",
+    "filter"
+  ],
+  "author": "Bernt Anker <bernt.anker@me.com> (http://bernt-anker.com)",
+  "license": "MIT",
+  "dependencies": {
+    "is-my-json-valid": "^2.15.0",
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7"
+  }
+}
