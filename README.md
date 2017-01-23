@@ -4,7 +4,7 @@ fetch json data from a given url and run through a filter.
 
 ## Example:
 ```javascript
-const JsonFetcher = require('jsonFetcher');
+const JsonFetcher = require('@kenguru33/json-fetcher');
 const Validator = require('is-my-json-valid');
 
 // filter away additionally properties
@@ -18,6 +18,6 @@ const filter = validator.filter({
 })
 
 const jsonFetcher = new JsonFetcher(fetch, filter);
-const jsonFetcher.fetch(http://mydata.no/data.json)
-  .then(data=>console.log(data);
+jsonFetcher.fetch('http://mydata.no/data.json')
+  .then(data=>console.log(data));
 ```
